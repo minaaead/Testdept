@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPITest", "WebAPITest\WebAPITest.csproj", "{D7F72D7A-1BB0-49EC-ACF8-523B7FB7851D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mina.Entity", "Mina.Entity\Mina.Entity.csproj", "{FC0F2670-9487-4AF4-8407-69605EB2C666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mina.Dal", "Mina.Dal\Mina.Dal.csproj", "{79C6F343-CE27-4DD7-A75B-6D6780C3821D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mina.Repository.Interface", "Mina.Repository.Interface\Mina.Repository.Interface.csproj", "{0A50D67A-8741-48CD-BEE7-97D5DA6AD560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mina.Repository", "Mina.Repository\Mina.Repository.csproj", "{C9F5CB1F-6CE5-48E0-9B0B-018C0E01785F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mina.Service.Interface", "Mina.Service.Interface\Mina.Service.Interface.csproj", "{0576DBAE-2D25-4476-AA6C-D3FCBC37E266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mina.Service", "Mina.Service\Mina.Service.csproj", "{D35DDDB5-8094-4BD3-91C6-8EF90E4AAA60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F72D7A-1BB0-49EC-ACF8-523B7FB7851D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F72D7A-1BB0-49EC-ACF8-523B7FB7851D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F72D7A-1BB0-49EC-ACF8-523B7FB7851D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F72D7A-1BB0-49EC-ACF8-523B7FB7851D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0F2670-9487-4AF4-8407-69605EB2C666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0F2670-9487-4AF4-8407-69605EB2C666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0F2670-9487-4AF4-8407-69605EB2C666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0F2670-9487-4AF4-8407-69605EB2C666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C6F343-CE27-4DD7-A75B-6D6780C3821D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C6F343-CE27-4DD7-A75B-6D6780C3821D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C6F343-CE27-4DD7-A75B-6D6780C3821D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C6F343-CE27-4DD7-A75B-6D6780C3821D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A50D67A-8741-48CD-BEE7-97D5DA6AD560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A50D67A-8741-48CD-BEE7-97D5DA6AD560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A50D67A-8741-48CD-BEE7-97D5DA6AD560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A50D67A-8741-48CD-BEE7-97D5DA6AD560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F5CB1F-6CE5-48E0-9B0B-018C0E01785F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F5CB1F-6CE5-48E0-9B0B-018C0E01785F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F5CB1F-6CE5-48E0-9B0B-018C0E01785F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F5CB1F-6CE5-48E0-9B0B-018C0E01785F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0576DBAE-2D25-4476-AA6C-D3FCBC37E266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0576DBAE-2D25-4476-AA6C-D3FCBC37E266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0576DBAE-2D25-4476-AA6C-D3FCBC37E266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0576DBAE-2D25-4476-AA6C-D3FCBC37E266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35DDDB5-8094-4BD3-91C6-8EF90E4AAA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35DDDB5-8094-4BD3-91C6-8EF90E4AAA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35DDDB5-8094-4BD3-91C6-8EF90E4AAA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35DDDB5-8094-4BD3-91C6-8EF90E4AAA60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
